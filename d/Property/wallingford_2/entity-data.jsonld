@@ -1,0 +1,35 @@
+{
+  "rdfs:label": "2-bed ground floor overlooking Thames in Wallingford",
+  "rdfs:comment": "A rarely available 2 double bedroom ground floor apartment within this prestigious private estate with views over the River Thames. Available either furnished or unfurnished.\r\n\r\n## Questions\r\n\r\n* Check height of kitchen table\r\n    - \"looks\" normal height.  Will check Thursday\r\n* Permission to install grab handles in shower\r\n    - can ask in application\r\n    - e.g. http://www.essentialaids.com/mobility/grab-rails-grabrails/plastic-coated-steel-grab-bar.html\r\n* Can pictures be put up?\r\n* Choose furniture (e.g. keep kitchen, remove other rooms)\r\n* Installation of key safe (already mentioned?)\r\n",
+  "annal:type_id": "Property",
+  "prop:environment": "Very pleasant views to river.",
+  "prop:agent": "Finders Keepers Abingdon",
+  "@id": "./",
+  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-51288274.html",
+  "prop:acessibility": "Ground floor. Ensuite shower walk-in?",
+  "prop:facilities": "Wallingford pleasant centre",
+  "prop:location": "~15 minutes",
+  "prop:images": [
+    {
+      "prop:images": "Property_image/wallingford_2_front"
+    },
+    {
+      "prop:images": "Property_image/wallingford_2_entrance"
+    },
+    {
+      "prop:images": "Property_image/wallingford_2_view"
+    },
+    {
+      "prop:images": "Property_image/wallingford_2_plan"
+    }
+  ],
+  "prop:size": "Good (expensive, but...)",
+  "prop:score": "7",
+  "annal:id": "wallingford_2",
+  "prop:transport": "Oxford Bus?",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

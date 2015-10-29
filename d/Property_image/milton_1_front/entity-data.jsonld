@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Front",
+  "rdfs:comment": "",
+  "prop:image": {
+    "resource_url": "http://www.chancellors.co.uk/cache/images//6/2/9/629ca19536a3096b5e84474e5e3cf7f3.jpg",
+    "resource_name": "Property_image.jpg",
+    "import_name": "Property_image",
+    "resource_type": "image/jpeg",
+    "import_url": "http://www.chancellors.co.uk/cache/images//6/2/9/629ca19536a3096b5e84474e5e3cf7f3.jpg"
+  },
+  "annal:type_id": "Property_image",
+  "annal:id": "milton_1_front",
+  "@id": "./",
+  "@type": [
+    "prop:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

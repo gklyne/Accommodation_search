@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Entrance hall",
+  "rdfs:comment": "",
+  "prop:image": {
+    "resource_url": "http://media.rightmove.co.uk/7k/6858/51288274/6858_P98476_IMG_05_0000_max_620x414.JPG",
+    "resource_name": "Property_image.jpg",
+    "import_name": "Property_image",
+    "resource_type": "image/jpeg",
+    "import_url": "http://media.rightmove.co.uk/7k/6858/51288274/6858_P98476_IMG_05_0000_max_620x414.JPG"
+  },
+  "annal:type_id": "Property_image",
+  "annal:id": "wallingford_2_entrance",
+  "@id": "./",
+  "@type": [
+    "prop:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,30 @@
+{
+  "rdfs:label": "Properties",
+  "rdfs:comment": "List of candidate properties",
+  "annal:default_view": "Property_view",
+  "annal:default_type": "Property",
+  "annal:record_type": "prop:Summary",
+  "annal:type_id": "_list",
+  "annal:list_entity_selector": "\"prop:Summary\" in [@type]",
+  "annal:display_type": "List",
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,12;medium:0,3",
+      "annal:field_id": "Entity_id"
+    },
+    {
+      "annal:field_placement": "small:0,12;medium:3,6",
+      "annal:field_id": "Entity_label"
+    },
+    {
+      "annal:field_placement": "small:0,12;medium:9,3right",
+      "annal:field_id": "Property_score"
+    }
+  ],
+  "annal:id": "Property_list",
+  "@id": "./",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:type": "annal:List"
+}

@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Rear",
+  "rdfs:comment": "",
+  "prop:image": {
+    "resource_url": "http://media.rightmove.co.uk/dir/72k/71896/53967161/71896_25755180_IMG_10_0000_max_656x437.jpg",
+    "resource_name": "Property_image.jpg",
+    "import_name": "Property_image",
+    "resource_type": "image/jpeg",
+    "import_url": "http://media.rightmove.co.uk/dir/72k/71896/53967161/71896_25755180_IMG_10_0000_max_656x437.jpg"
+  },
+  "annal:type_id": "Property_image",
+  "annal:id": "benson_1_rear",
+  "@id": "./",
+  "@type": [
+    "prop:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

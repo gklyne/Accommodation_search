@@ -1,0 +1,29 @@
+{
+  "rdfs:label": "Ground floor Flat, Great Western Park",
+  "rdfs:comment": "> \"An executive apartment located on the ground floor. This property offers ease of access to the Didcot railway station and the centre of Didcot. The property benefits from a large reception room and two double bedrooms.\"\r\n\r\n## Overall: 4/10",
+  "annal:type_id": "Property",
+  "prop:environment": "A bit urban wilderness; a bit of grass, but very built-up area",
+  "prop:agent": "Chancellors, Didcot",
+  "@id": "./",
+  "prop:link": "http://www.chancellors.co.uk/properties/didcot-property/2-bedroom-flat-apartment-to-rent/06821601/didcot-oxfordshire",
+  "prop:acessibility": "Shower over bath",
+  "prop:facilities": "?",
+  "prop:location": "Far sider of Didcot; so-so",
+  "prop:images": [
+    {
+      "prop:images": "didcot_gwp_1_front"
+    },
+    {
+      "prop:images": "didcot_gwp_1_bathroom"
+    }
+  ],
+  "prop:size": "Small side, but probably bearable",
+  "prop:score": "4",
+  "annal:id": "didcot_gwp_1",
+  "prop:transport": "Harwell bus?",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

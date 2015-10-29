@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Candidate properties for Mum",
+  "rdfs:comment": "",
+  "annal:software_version": "0.1.18",
+  "annal:type_id": "_collection",
+  "annal:default_list": "Property_list",
+  "annal:id": "Bungalow_search",
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:type": "annal:Collection"
+}

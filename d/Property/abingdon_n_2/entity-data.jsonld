@@ -1,0 +1,32 @@
+{
+  "rdfs:label": "A ground floor apartment, just outside the town centre.",
+  "rdfs:comment": "Willow Brook, between Abingdon centre and Abingdon Business Park.  Reasonable price.  Some grass outside (this is a greener part of central Abingdon)",
+  "annal:type_id": "Property",
+  "prop:environment": "Grass and trees out front; new-ish town centre development, but in leafier part of central Abingdon(?)",
+  "prop:agent": "Finders Keepers Abingdon",
+  "@id": "./",
+  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-51137155.html",
+  "prop:acessibility": "Walk-in shower and bathroom; ground floor",
+  "prop:facilities": "?",
+  "prop:location": "Abingdon, central-ish",
+  "prop:images": [
+    {
+      "prop:images": "abingdon_n_2_front"
+    },
+    {
+      "prop:images": "abingdon_n_2_living"
+    },
+    {
+      "prop:images": "abingdon_n_2_plan"
+    }
+  ],
+  "prop:size": "2 bed; smallish, but maybe OK",
+  "prop:score": "6",
+  "annal:id": "abingdon_n_2",
+  "prop:transport": "Oxford bus to Abingdon; Didcot?",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

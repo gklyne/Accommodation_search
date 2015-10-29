@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Shower (en suite)",
+  "rdfs:comment": "",
+  "prop:image": {
+    "resource_url": "http://media.rightmove.co.uk/34k/33870/51248323/33870_84000_IMG_00_0000_max_620x414.jpg",
+    "resource_name": "Property_image.jpg",
+    "import_name": "Property_image",
+    "resource_type": "image/jpeg",
+    "import_url": "http://media.rightmove.co.uk/34k/33870/51248323/33870_84000_IMG_00_0000_max_620x414.jpg"
+  },
+  "annal:type_id": "Property_image",
+  "annal:id": "abingdon_c_1_shower",
+  "@id": "./",
+  "@type": [
+    "prop:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

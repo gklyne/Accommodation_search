@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Bathroom",
+  "rdfs:comment": "",
+  "prop:image": {
+    "resource_url": "http://www.chancellors.co.uk/cache/images//6/e/7/6e7ca6b35cc3c0a5fcb294b31609c239.jpg",
+    "resource_name": "Property_image.jpg",
+    "import_name": "Property_image",
+    "resource_type": "image/jpeg",
+    "import_url": "http://www.chancellors.co.uk/cache/images//6/e/7/6e7ca6b35cc3c0a5fcb294b31609c239.jpg"
+  },
+  "annal:type_id": "Property_image",
+  "annal:id": "abingdon_n_1_bathroom",
+  "@id": "./",
+  "@type": [
+    "prop:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "2-bed flat in Wallingford",
+  "rdfs:comment": "Recently refurbished throughout spacious ground floor flat.\r\n\r\nNear Wallingford Hospital\r\n\r\nMeh.\r\n\r\n",
+  "annal:type_id": "Property",
+  "prop:environment": "Nice town, not sure about immediate surrounds",
+  "prop:agent": "Homebase Management Wallingford",
+  "@id": "./",
+  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-45507232.html",
+  "prop:acessibility": "Ground floor; Shower over bath",
+  "prop:facilities": "OK",
+  "prop:location": "About 15 mins",
+  "prop:images": [
+    {
+      "prop:images": ""
+    }
+  ],
+  "prop:size": "Looks small",
+  "prop:score": "4",
+  "annal:id": "wallingford_1",
+  "prop:transport": "Bus?  Cholsey station?",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

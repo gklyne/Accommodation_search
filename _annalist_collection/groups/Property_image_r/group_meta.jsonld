@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Property image fields",
+  "rdfs:comment": "Property image fields",
+  "annal:type_id": "_group",
+  "annal:record_type": "prop:Image",
+  "annal:group_fields": [
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "Property_image_m"
+    }
+  ],
+  "annal:id": "Property_image_r",
+  "@id": "./",
+  "@type": [
+    "annal:Field_group"
+  ],
+  "annal:type": "annal:Field_group"
+}

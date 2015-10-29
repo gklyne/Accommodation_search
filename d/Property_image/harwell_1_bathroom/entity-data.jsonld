@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Bathroom",
+  "rdfs:comment": "",
+  "prop:image": {
+    "resource_url": "http://media.rightmove.co.uk/72k/71896/53715551/71896_25725941_IMG_34_0000_max_620x414.jpg",
+    "resource_name": "Property_image.jpg",
+    "import_name": "Property_image",
+    "resource_type": "image/jpeg",
+    "import_url": "http://media.rightmove.co.uk/72k/71896/53715551/71896_25725941_IMG_34_0000_max_620x414.jpg"
+  },
+  "annal:type_id": "Property_image",
+  "annal:id": "harwell_1_bathroom",
+  "@id": "./",
+  "@type": [
+    "prop:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}
