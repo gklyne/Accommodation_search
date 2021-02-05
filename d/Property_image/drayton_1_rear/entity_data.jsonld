@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Rear",
-  "rdfs:comment": "",
-  "prop:image": {
-    "resource_url": "http://media.rightmove.co.uk/31k/30536/53678675/30536_05161598_IMG_02_0000.jpg",
-    "resource_name": "Property_image.jpg",
-    "import_name": "Property_image",
-    "resource_type": "image/jpeg",
-    "import_url": "http://media.rightmove.co.uk/31k/30536/53678675/30536_05161598_IMG_02_0000.jpg"
-  },
-  "annal:type_id": "Property_image",
-  "annal:id": "drayton_1_rear",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property_image/drayton_1_rear",
   "@type": [
     "prop:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "drayton_1_rear",
+  "annal:type": "prop:Image",
+  "annal:type_id": "Property_image",
+  "prop:image": {
+    "import_name": "Property_image",
+    "import_url": "http://media.rightmove.co.uk/31k/30536/53678675/30536_05161598_IMG_02_0000.jpg",
+    "resource_name": "Property_image.jpg",
+    "resource_type": "image/jpeg",
+    "resource_url": "http://media.rightmove.co.uk/31k/30536/53678675/30536_05161598_IMG_02_0000.jpg"
+  },
+  "rdfs:comment": "",
+  "rdfs:label": "Rear"
 }

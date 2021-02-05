@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/Property_image",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/RefImage",
+  "annal:field_value_mode": "_enum_value_mode/Value_import",
+  "annal:field_value_type": "annal:Image",
+  "annal:id": "Property_image",
+  "annal:placeholder": "(enter link to image and click 'Upload')",
+  "annal:property_uri": "prop:image",
+  "annal:repeat_label_add": "",
+  "annal:repeat_label_delete": "",
+  "annal:tooltip": "Property image",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Property image\r\n\r\nProperty image",
+  "rdfs:label": "Property image"
+}

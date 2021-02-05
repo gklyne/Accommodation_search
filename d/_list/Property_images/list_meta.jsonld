@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Property_images",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "Property_image",
+  "annal:default_view": "Property_image",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Property_images",
+  "annal:list_entity_selector": "\"prop:Image\" in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,4"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:0,12;medium:4,8"
+    }
+  ],
+  "annal:record_type": "prop:Image",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "Property images",
+  "rdfs:label": "Property images"
+}

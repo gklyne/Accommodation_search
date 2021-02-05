@@ -1,14 +1,22 @@
 {
-  "rdfs:label": "A ground floor flat, close to Abbey Meadow",
-  "rdfs:comment": "Thames View is a modern development of apartments and townhouses conveniently located within half a mile of Abingdon Town Centre, with pedestrian access to Waitrose and the Abbey Grounds with its riverside walks, gardens and park.\r\n\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property/abingdon_c_1",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:id": "abingdon_c_1",
+  "annal:type": "prop:Summary",
   "annal:type_id": "Property",
-  "prop:environment": "Not much greenery, but Abbey Meadow nearby",
-  "prop:agent": "Andrews, Abingdon",
-  "@id": "./",
-  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-51248323.html",
   "prop:acessibility": "Ground floor; en-suite walk-in shower; separate bathroom",
+  "prop:agent": "Andrews, Abingdon",
+  "prop:environment": "Not much greenery, but Abbey Meadow nearby",
   "prop:facilities": "Good (Waitrose nearby)",
-  "prop:location": "Abingdon, central, good location",
   "prop:images": [
     {
       "prop:images": "abingdon_c_1_front"
@@ -17,13 +25,11 @@
       "prop:images": "abingdon_c_1_shower"
     }
   ],
-  "prop:size": "2 bed; smallish, but maybe OK",
+  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-51248323.html",
+  "prop:location": "Abingdon, central, good location",
   "prop:score": "7",
-  "annal:id": "abingdon_c_1",
+  "prop:size": "2 bed; smallish, but maybe OK",
   "prop:transport": "Oxford bus to Abingdon; Didcot?",
-  "@type": [
-    "prop:Summary",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Thames View is a modern development of apartments and townhouses conveniently located within half a mile of Abingdon Town Centre, with pedestrian access to Waitrose and the Abbey Grounds with its riverside walks, gardens and park.\r\n\r\n",
+  "rdfs:label": "A ground floor flat, close to Abbey Meadow"
 }

@@ -1,14 +1,22 @@
 {
-  "rdfs:label": "3-bed bungalow in Drayton",
-  "rdfs:comment": "## Overall: 7/10, but expensive\r\n\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property/drayton_1",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:id": "drayton_1",
+  "annal:type": "prop:Summary",
   "annal:type_id": "Property",
-  "prop:environment": "Reasonable size garden, looking to open fields",
-  "prop:agent": "Chancellors, Abingdon",
-  "@id": "./",
-  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-53678675.html",
   "prop:acessibility": "Looks like walk-in shower (?)",
+  "prop:agent": "Chancellors, Abingdon",
+  "prop:environment": "Reasonable size garden, looking to open fields",
   "prop:facilities": "South side of Drayton.",
-  "prop:location": "Drayton, OK for us",
   "prop:images": [
     {
       "prop:images": "drayton_1_front"
@@ -20,13 +28,11 @@
       "prop:images": "drayton_1_rear"
     }
   ],
-  "prop:size": "Good size, expensive",
+  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-53678675.html",
+  "prop:location": "Drayton, OK for us",
   "prop:score": "7",
-  "annal:id": "drayton_1",
+  "prop:size": "Good size, expensive",
   "prop:transport": "Didcot-Abingdon bus (?)",
-  "@type": [
-    "prop:Summary",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "## Overall: 7/10, but expensive\r\n\r\n",
+  "rdfs:label": "3-bed bungalow in Drayton"
 }

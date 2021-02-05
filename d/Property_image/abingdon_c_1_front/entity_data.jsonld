@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Front",
-  "rdfs:comment": "",
-  "prop:image": {
-    "resource_url": "http://media.rightmove.co.uk/34k/33870/51248323/33870_84000_IMG_00_0000_max_620x414.jpg",
-    "resource_name": "Property_image.jpg",
-    "import_name": "Property_image",
-    "resource_type": "image/jpeg",
-    "import_url": "http://media.rightmove.co.uk/34k/33870/51248323/33870_84000_IMG_00_0000_max_620x414.jpg"
-  },
-  "annal:type_id": "Property_image",
-  "annal:id": "abingdon_c_1_front",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property_image/abingdon_c_1_front",
   "@type": [
     "prop:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "abingdon_c_1_front",
+  "annal:type": "prop:Image",
+  "annal:type_id": "Property_image",
+  "prop:image": {
+    "import_name": "Property_image",
+    "import_url": "http://media.rightmove.co.uk/34k/33870/51248323/33870_84000_IMG_00_0000_max_620x414.jpg",
+    "resource_name": "Property_image.jpg",
+    "resource_type": "image/jpeg",
+    "resource_url": "http://media.rightmove.co.uk/34k/33870/51248323/33870_84000_IMG_00_0000_max_620x414.jpg"
+  },
+  "rdfs:comment": "",
+  "rdfs:label": "Front"
 }

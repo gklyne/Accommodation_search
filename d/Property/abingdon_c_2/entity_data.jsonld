@@ -1,26 +1,32 @@
 {
-  "rdfs:label": "Ground floor flat central abingdon, nr Waitrose",
-  "rdfs:comment": "2 Bedroom Ground Floor Flat in Popular Central Abingdon Location close to Town Centre Amenities including Bus Routes and Shops\r\n\r\nPoor information on web site.  A bit meh all round?",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property/abingdon_c_2",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:id": "abingdon_c_2",
+  "annal:type": "prop:Summary",
   "annal:type_id": "Property",
-  "prop:environment": "A bit town centre jungle",
-  "prop:agent": "Oxfordshire Estates, Abingdon",
-  "@id": "./",
-  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-51320956.html",
   "prop:acessibility": "Ground floor,  shower over bath?",
+  "prop:agent": "Oxfordshire Estates, Abingdon",
+  "prop:environment": "A bit town centre jungle",
   "prop:facilities": "Near Waitrose",
-  "prop:location": "15min",
   "prop:images": [
     {
       "prop:images": "abingdon_c_2_front"
     }
   ],
-  "prop:size": "Small?",
+  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-51320956.html",
+  "prop:location": "15min",
   "prop:score": "4",
-  "annal:id": "abingdon_c_2",
+  "prop:size": "Small?",
   "prop:transport": "Abingdon buses",
-  "@type": [
-    "prop:Summary",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "2 Bedroom Ground Floor Flat in Popular Central Abingdon Location close to Town Centre Amenities including Bus Routes and Shops\r\n\r\nPoor information on web site.  A bit meh all round?",
+  "rdfs:label": "Ground floor flat central abingdon, nr Waitrose"
 }

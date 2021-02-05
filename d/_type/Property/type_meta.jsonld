@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Property",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Property",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "Property_list",
+  "annal:type_view": "Property_view",
+  "annal:uri": "prop:Summary",
+  "rdfs:comment": "Candidate property",
+  "rdfs:label": "Property"
+}

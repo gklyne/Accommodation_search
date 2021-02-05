@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/Property_link",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/URILink",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Identifier",
+  "annal:id": "Property_link",
+  "annal:placeholder": "(URL of propert page)",
+  "annal:property_uri": "prop:link",
+  "annal:repeat_label_add": "",
+  "annal:repeat_label_delete": "",
+  "annal:tooltip": "Link to property page",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Link to property page\r\n\r\nLink to property page",
+  "rdfs:label": "Link to property page"
+}

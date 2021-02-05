@@ -1,0 +1,43 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/Property_image_m",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "Property_image",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": ""
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/Property_image",
+  "annal:field_render_type": "_enum_render_type/RefMultifield",
+  "annal:field_value_mode": "_enum_value_mode/Value_entity",
+  "annal:field_value_type": "prop:Image",
+  "annal:id": "Property_image_m",
+  "annal:placeholder": "(property image fields)",
+  "annal:property_uri": "prop:images",
+  "annal:repeat_label_add": "",
+  "annal:repeat_label_delete": "",
+  "annal:tooltip": "Property image fields",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Property image fields\r\n\r\nProperty image fields",
+  "rdfs:label": "Property image fields"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_user/gklyne_ipad",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "gklyne_ipad",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
+    "VIEW",
+    "CREATE",
+    "UPDATE",
+    "DELETE",
+    "CONFIG",
+    "ADMIN"
+  ],
+  "annal:user_uri": "mailto:gklyne@googlemail.com",
+  "rdfs:comment": "User gklyne: permissions for Graham Klyne in collection Bungalow_search",
+  "rdfs:label": "Graham Klyne"
+}

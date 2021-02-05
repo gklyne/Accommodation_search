@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Property_list",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "Property",
+  "annal:default_view": "Property_view",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Property_list",
+  "annal:list_entity_selector": "\"prop:Summary\" in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,3"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:0,12;medium:3,6"
+    },
+    {
+      "annal:field_id": "Property_score",
+      "annal:field_placement": "small:0,12;medium:9,3right"
+    }
+  ],
+  "annal:record_type": "prop:Summary",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of candidate properties",
+  "rdfs:label": "Properties"
+}

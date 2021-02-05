@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Plan",
-  "rdfs:comment": "",
-  "prop:image": "http://media.rightmove.co.uk/7k/6858/51288274/6858_P98476_FLP_00_0000.JPG",
-  "annal:type_id": "Property_image",
-  "annal:id": "wallingford_2_plan",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property_image/wallingford_2_plan",
   "@type": [
     "prop:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "wallingford_2_plan",
+  "annal:type": "prop:Image",
+  "annal:type_id": "Property_image",
+  "prop:image": "http://media.rightmove.co.uk/7k/6858/51288274/6858_P98476_FLP_00_0000.JPG",
+  "rdfs:comment": "",
+  "rdfs:label": "Plan"
 }

@@ -1,14 +1,22 @@
 {
-  "rdfs:label": "3-bed bungalow in The Croft, Harwell",
-  "rdfs:comment": "THE CROFT HARWELL, OXON, OX11 OED\r\nDetached, 3 bedroom bungalow located in this popular village. Comprising of fully fitted kitchen with range cooker, oven, washing machine, dishwasher, fridge/freezer, sitting room, conservatory, bathroom with shower over bath, 2 double bedrooms one with a room off which could be used as a childs room/dressing room. Gas central heating, UPVC windows. 2 driveways. Enclosed rear garden. Council Tax Band D\r\n\r\n# Overall 6/10\r\n\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property/harwell_1",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:id": "harwell_1",
+  "annal:type": "prop:Summary",
   "annal:type_id": "Property",
-  "prop:environment": "Pleasant village environment, attractive garden",
-  "prop:agent": "Thomas Merrifield, Didcot",
-  "@id": "./",
-  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-53715551.html",
   "prop:acessibility": "Shower over bath",
+  "prop:agent": "Thomas Merrifield, Didcot",
+  "prop:environment": "Pleasant village environment, attractive garden",
   "prop:facilities": "Some in Harwell, not too far?",
-  "prop:location": "Other side of Didcot",
   "prop:images": [
     {
       "prop:images": "harwell_1_front"
@@ -20,13 +28,11 @@
       "prop:images": "harwell_1_rear"
     }
   ],
-  "prop:size": "Good, expensive (1400)",
+  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-53715551.html",
+  "prop:location": "Other side of Didcot",
   "prop:score": "6",
-  "annal:id": "harwell_1",
+  "prop:size": "Good, expensive (1400)",
   "prop:transport": "?",
-  "@type": [
-    "prop:Summary",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "THE CROFT HARWELL, OXON, OX11 OED\r\nDetached, 3 bedroom bungalow located in this popular village. Comprising of fully fitted kitchen with range cooker, oven, washing machine, dishwasher, fridge/freezer, sitting room, conservatory, bathroom with shower over bath, 2 double bedrooms one with a room off which could be used as a childs room/dressing room. Gas central heating, UPVC windows. 2 driveways. Enclosed rear garden. Council Tax Band D\r\n\r\n# Overall 6/10\r\n\r\n",
+  "rdfs:label": "3-bed bungalow in The Croft, Harwell"
 }

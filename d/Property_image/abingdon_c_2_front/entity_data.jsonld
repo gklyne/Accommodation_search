@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Front",
-  "rdfs:comment": "",
-  "prop:image": "http://media.rightmove.co.uk/6k/5374/51320956/5374_3748335_IMG_00_0000_max_620x414.jpg",
-  "annal:type_id": "Property_image",
-  "annal:id": "abingdon_c_2_front",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property_image/abingdon_c_2_front",
   "@type": [
     "prop:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "abingdon_c_2_front",
+  "annal:type": "prop:Image",
+  "annal:type_id": "Property_image",
+  "prop:image": "http://media.rightmove.co.uk/6k/5374/51320956/5374_3748335_IMG_00_0000_max_620x414.jpg",
+  "rdfs:comment": "",
+  "rdfs:label": "Front"
 }

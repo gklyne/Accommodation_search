@@ -1,26 +1,32 @@
 {
-  "rdfs:label": "Brook Farm 2-bed cottage",
-  "rdfs:comment": "Holiday cottage on road between Drayton and Milton\r\n\r\nShort term let: no-no?\r\n\r\n## Overall: 4/10\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property/milton_1",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:id": "milton_1",
+  "annal:type": "prop:Summary",
   "annal:type_id": "Property",
-  "prop:environment": "Open fields around",
-  "prop:agent": "Chancellors, Abingdon",
-  "@id": "./",
-  "prop:link": "http://www.chancellors.co.uk/properties/abingdon-property/2-bedroom-cottage-to-rent/05161502/brook-farm-milton-road",
   "prop:acessibility": "Shower over bath",
+  "prop:agent": "Chancellors, Abingdon",
+  "prop:environment": "Open fields around",
   "prop:facilities": "Nothing nearby; nearest Drayton or Milton or Sutton Cortenay",
-  "prop:location": "Milton/Drayton - easy for us",
   "prop:images": [
     {
       "prop:images": "milton_1_front"
     }
   ],
-  "prop:size": "Small living space (?)",
+  "prop:link": "http://www.chancellors.co.uk/properties/abingdon-property/2-bedroom-cottage-to-rent/05161502/brook-farm-milton-road",
+  "prop:location": "Milton/Drayton - easy for us",
   "prop:score": "4",
-  "annal:id": "milton_1",
+  "prop:size": "Small living space (?)",
   "prop:transport": "No public transport (?)",
-  "@type": [
-    "prop:Summary",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Holiday cottage on road between Drayton and Milton\r\n\r\nShort term let: no-no?\r\n\r\n## Overall: 4/10\r\n",
+  "rdfs:label": "Brook Farm 2-bed cottage"
 }

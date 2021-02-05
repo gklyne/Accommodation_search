@@ -1,14 +1,22 @@
 {
-  "rdfs:label": "North Abingdon bunglalow with adapted bathroom",
-  "rdfs:comment": "North Abingdon bunglalow with adapted bathroom\r\n\r\n## Overall: 5/10\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property/abingdon_n_1",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:id": "abingdon_n_1",
+  "annal:type": "prop:Summary",
   "annal:type_id": "Property",
-  "prop:environment": "A bit urban wilderness; some grass, but no park; concrete rear garden",
-  "prop:agent": "Chancellors, Abingdon",
-  "@id": "./",
-  "prop:link": "http://www.chancellors.co.uk/properties/abingdon-property/2-bedroom-bungalow-to-rent/05161908/abingdon-oxfordshire",
   "prop:acessibility": "Good",
+  "prop:agent": "Chancellors, Abingdon",
+  "prop:environment": "A bit urban wilderness; some grass, but no park; concrete rear garden",
   "prop:facilities": "Wooton road?",
-  "prop:location": "Other side of Abingdon",
   "prop:images": [
     {
       "prop:images": "abingdon_n_1_front"
@@ -20,13 +28,11 @@
       "prop:images": "abingdon_n_1_rear"
     }
   ],
-  "prop:size": "Small but OK (?)",
+  "prop:link": "http://www.chancellors.co.uk/properties/abingdon-property/2-bedroom-bungalow-to-rent/05161908/abingdon-oxfordshire",
+  "prop:location": "Other side of Abingdon",
   "prop:score": "5",
-  "annal:id": "abingdon_n_1",
+  "prop:size": "Small but OK (?)",
   "prop:transport": "Abingdon bus?",
-  "@type": [
-    "prop:Summary",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "North Abingdon bunglalow with adapted bathroom\r\n\r\n## Overall: 5/10\r\n",
+  "rdfs:label": "North Abingdon bunglalow with adapted bathroom"
 }

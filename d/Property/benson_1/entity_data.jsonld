@@ -1,14 +1,22 @@
 {
-  "rdfs:label": "4-bed bungalow in Benson",
-  "rdfs:comment": "CHAPEL LANE, BENSON, OXON. OX10 6LU\r\nDetached, 4 bedroom extended bungalow located in this sought after village within easy access to the M40. Comprsing of fully fitted, open plan kitchen/dining room with gas hob, oven and dishwasher. Utility room. Sitting room with doors overlooking the garden. Main bedroom with en-suite bathroom with shower over the bath, three further bedrooms. Good size, established rear garden with two sheds. Driveway with parking for parking for multiple cars. \r\n\r\n## Overall:  4/10",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property/benson_1",
+  "@type": [
+    "prop:Summary",
+    "annal:EntityData"
+  ],
+  "annal:id": "benson_1",
+  "annal:type": "prop:Summary",
   "annal:type_id": "Property",
-  "prop:environment": "Good size garden",
-  "prop:agent": "Thomas Merrifield, Didcot",
-  "@id": "./",
-  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-53967161.html",
   "prop:acessibility": "Shower over bath",
+  "prop:agent": "Thomas Merrifield, Didcot",
+  "prop:environment": "Good size garden",
   "prop:facilities": "Heart of benson, probably good",
-  "prop:location": "Benson; on the far side for us",
   "prop:images": [
     {
       "prop:images": "benson_1_front"
@@ -20,13 +28,11 @@
       "prop:images": "benson_1_rear"
     }
   ],
-  "prop:size": "Large (& expensive)",
+  "prop:link": "http://www.rightmove.co.uk/property-to-rent/property-53967161.html",
+  "prop:location": "Benson; on the far side for us",
   "prop:score": "4",
-  "annal:id": "benson_1",
+  "prop:size": "Large (& expensive)",
   "prop:transport": "Probable bus (?)",
-  "@type": [
-    "prop:Summary",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "CHAPEL LANE, BENSON, OXON. OX10 6LU\r\nDetached, 4 bedroom extended bungalow located in this sought after village within easy access to the M40. Comprsing of fully fitted, open plan kitchen/dining room with gas hob, oven and dishwasher. Utility room. Sitting room with doors overlooking the garden. Main bedroom with en-suite bathroom with shower over the bath, three further bedrooms. Good size, established rear garden with two sheds. Driveway with parking for parking for multiple cars. \r\n\r\n## Overall:  4/10",
+  "rdfs:label": "4-bed bungalow in Benson"
 }

@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Front",
-  "rdfs:comment": "...",
-  "prop:image": {
-    "resource_url": "http://www.chancellors.co.uk/cache/images//b/f/0/bf0afa63f253befd40f83589402d86f4.jpg",
-    "resource_name": "Property_image.jpg",
-    "import_name": "Property_image",
-    "resource_type": "image/jpeg",
-    "import_url": "http://www.chancellors.co.uk/cache/images//b/f/0/bf0afa63f253befd40f83589402d86f4.jpg"
-  },
-  "annal:type_id": "Property_image",
-  "annal:id": "didcot_gwp_1_front",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Property_image/didcot_gwp_1_front",
   "@type": [
     "prop:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "didcot_gwp_1_front",
+  "annal:type": "prop:Image",
+  "annal:type_id": "Property_image",
+  "prop:image": {
+    "import_name": "Property_image",
+    "import_url": "http://www.chancellors.co.uk/cache/images//b/f/0/bf0afa63f253befd40f83589402d86f4.jpg",
+    "resource_name": "Property_image.jpg",
+    "resource_type": "image/jpeg",
+    "resource_url": "http://www.chancellors.co.uk/cache/images//b/f/0/bf0afa63f253befd40f83589402d86f4.jpg"
+  },
+  "rdfs:comment": "...",
+  "rdfs:label": "Front"
 }
